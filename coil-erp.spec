@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['coil-calc.py'],
+    ['coil-erp.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='coil-calc',
+    name='coil-erp',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
