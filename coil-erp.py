@@ -8,10 +8,6 @@ def compute_coil_outer_diameter(L, iD, T):
 
 def compute_coil_length(oD, iD, T):
     length = round(((math.pi * (oD**2 - iD**2)) / (4 * T)) * 100) / 100
-        if unit_var.get() == 'I':
-            length = length / 12
-        else :
-            length = length / 1000
     return length
 
 def convert_to_imperial(value, from_metric=True):
